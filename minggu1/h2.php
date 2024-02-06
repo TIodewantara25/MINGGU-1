@@ -128,7 +128,7 @@
 //     echo $Jumlah = ($Jumlah*0.05);
 // }else {
 //     echo "tidak ada diskon ";
-// }
+// }x   
 
 //ternari
 

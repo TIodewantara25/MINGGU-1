@@ -22,7 +22,7 @@
 
 ///
 
-function assada($tanggal){
+function hr($tanggal){
 	$hari = date('l', strtotime($tanggal));
 
 if ($hari == 'Monday') {
@@ -33,10 +33,8 @@ if ($hari == 'Monday') {
     return 'Rabu';
 }elseif ($hari == 'Thursday') {
     return 'Kamis';
-
 }elseif ($hari == "Friday") {
     return 'Jumat';
-
 }elseif ($hari == 'Saturday') {
     return 'Sabtu';
 }elseif ($hari == "Sunday") {
@@ -48,7 +46,7 @@ else {
 
 
 }
-echo assada ('2024-01-26') 
+echo hr ('2024-01-26') 
 
 
 ?>    
